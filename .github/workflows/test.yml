@@ -6,7 +6,7 @@ on:
     branches: [master]
 jobs:
   build:
-    runs-on: [self-hosted, can-run-medium-job]
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         # Node LTS https://nodejs.org/en/about/releases/
